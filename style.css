@@ -1,3 +1,4 @@
+/** Create suedo class for the entire HTML document */
 :root {
   --sm: 640px;
   --md: 768px;
@@ -25,7 +26,7 @@
 * {
   box-sizing: border-box;
 }
-
+/** adding style elements for html tag */
 html {
   font-family: 'Maven Pro', sans-serif;
   letter-spacing: 0.025em;
@@ -92,7 +93,7 @@ p {
 .triangle.desktop {
   display: none;
 }
-
+/** adding style for the header */
 header.hero {
   background: center / cover no-repeat url('images/pexels-nicole-avagliano-2236713.jpg')
     rgba(0, 0, 0, 0.4);
@@ -145,6 +146,7 @@ figure.avatar img {
   color: #444444;
 }
 
+/** adding style for the project section */
 .projects figure {
   border-radius: 0.5rem;
   position: relative;
@@ -221,7 +223,7 @@ figure.avatar img {
   display: inline-block;
   text-align: center;
 }
-
+/** adding color to footer */
 footer {
   background-color: #444444;
 }
